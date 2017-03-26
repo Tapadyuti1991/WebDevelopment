@@ -11,8 +11,8 @@ module.exports = function(app)
             process.env.MLAB_PASSWORD + "@" +
             process.env.MLAB_HOST + ':' +
             process.env.MLAB_PORT + '/' +
-            process.env.MLAB_APP_NAME+
-                process.env.MONGODB_URI;
+            process.env.MLAB_APP_NAME;
+
     }
 
     var mongoose = require("mongoose");
